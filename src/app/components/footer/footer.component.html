@@ -3,15 +3,15 @@
     <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-left">
       <p class="rk-footer__text rk-footer__copy ">
         <span class="ae-u-bold">© </span>
-        <span class="ae-u-bolder">{{anio}} Moda C&C </span>Todos los Derechos Reservados..</p>
+        <span class="ae-u-bolder">{{ anio }} {{ _is.info.titulo }} </span>Todos los Derechos Reservados..</p>
     </div>
     <div class="ae-grid__item item-lg-4 au-xs-ta-center">
-      <a href="#0" class="rk-social-btn ">
+      <a href="{{ _is.info.facebook }}" target="_blank" class="rk-social-btn ">
         <svg>
           <use xlink:href="assets/img/symbols.svg#icon-facebook"></use>
         </svg>
       </a>
-      <a href="#0" class="rk-social-btn ">
+      <a href="{{ _is.info.instagram }}" target="_blank" class="rk-social-btn ">
         <svg>
           <use xlink:href="assets/img/symbols.svg#icon-pinterest"></use>
         </svg>
@@ -19,7 +19,7 @@
     </div>
     <div class="ae-grid__item item-lg-4 au-xs-ta-center au-lg-ta-right">
       <p class="rk-footer__text rk-footer__by">Creado por
-        <a href="https://www.josetorres.cl" class="ae-u-bolder">Jose Torres</a>
+        <a [href]="_is.info.web_autor" target="_blank" class="ae-u-bolder">{{ _is.info.autor }}</a>
       </p>
     </div>
   </div>
