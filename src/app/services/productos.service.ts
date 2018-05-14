@@ -11,7 +11,7 @@ export class ProductosService {
   }
 
   public cargar_producto(cod: string) {
-    return this.http.get(`https://modacycv2.firebaseio.com/productos/${ cod }.json`);
+    return this.http.get(`https://modacycv2.firebaseio.com/productos/${cod}.json`);
   }
 
   public cargar_productos() {
@@ -24,5 +24,6 @@ export class ProductosService {
           this.productos = res.json();
         }, 500);
       });
+      
   }
 }
