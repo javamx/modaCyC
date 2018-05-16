@@ -40,13 +40,13 @@ body {
 }
 
 .rk-main {
-  z-index: 1;
+  z-index: 0;
   position: static;
 }
 .top-fixed .rk-main {
-  padding-top: 8.5rem;
+  padding-top: 6.8rem;
 }
-@media (min-width: 64em) {
+@media (min-width: 64rem) {
   .rk-main {
     position: relative;
   }
@@ -56,9 +56,12 @@ body {
   background-color: #fff;
   position: relative;
   z-index: 5;
+  height: 75px;
 }
 .top-fixed .rk-header {
   position: fixed;
+  padding-top: 0%;
+  padding-bottom: 0%;
 }
 
 .rk-topbar {
@@ -78,7 +81,7 @@ body {
   -ms-flex-pack: justify;
           justify-content: space-between;
   padding-bottom: 3.3rem;
-  padding-top: 2.8rem;
+  padding-top: 1rem;
 }
 @media (min-width: 64em) {
   .rk-topbar {
@@ -1132,6 +1135,7 @@ body {
   }
   .rk-landscape-alt:before {
     padding-top: 56.45161%;
+     
   }
   .rk-portrait:before {
     padding-top: 134.74026%;

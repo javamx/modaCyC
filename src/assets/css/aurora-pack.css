@@ -62,7 +62,7 @@ html {
 @media (min-width: 40em) {
   .ae-container-fluid {
     max-width: 88.88889em;
-    width: 95vw;
+    width: 15vw;
   }
   .ae-container-fluid--inner {
     max-width: 68.88889em;
